@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+
+# Env files / secrets
+.env
+
+# OS
+.DS_Store
+
+# Runtime uploads (if your app saves files)
+data/uploads/
+uploads/
