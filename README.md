@@ -1,7 +1,3 @@
-## Visual Incident Intelligence
-
-Turn screenshots, sketches, and diagrams into instant incident insights using multimodal AI and vector search.
-
 # 🛡️ Visual Incident Intelligence
 
 **Turn screenshots, sketches, and diagrams into instant incident insights using multimodal AI and vector search.**
@@ -208,6 +204,13 @@ Role-based access control
 Timeline-based incident correlation
 
 Integration with monitoring tools (Splunk, Datadog)
+
+## ⚠️ Disclaimer
+This project is intended solely for educational, research, and hackathon demonstration purposes.
+It does not provide financial advice, security guarantees, or production-grade fraud assessment.
+
+Any insights or outputs generated should not be used for real-world financial decision-making or business operations.
+The author assumes no liability for misuse, misinterpretation, or unauthorized use of the project.
 
 ## 👩‍💻 Author
 
