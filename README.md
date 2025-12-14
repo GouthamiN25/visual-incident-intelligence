@@ -154,24 +154,37 @@ This is a **live backend-connected demo**, not a mock UI.
 
 ## 📦 Project Structure
 visual-incident-intelligence/
+
 ├── app/
+
 │ ├── main.py
+
 │ ├── vision.py
+
 │ ├── embedder.py
+
 │ ├── qdrant_store.py
+
 │ ├── scoring.py
+
 │ ├── storage.py
+
 │ └── schemas.py
 │
 ├── ui/
+
 │ └── index.html
 │
 ├── data/
+
 │ └── uploads/
 │
 ├── requirements.txt
+
 ├── .gitignore
+
 └── README.md
+
 
 ## 🏆 Use Cases
 
