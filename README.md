@@ -22,6 +22,9 @@ Instead of treating these visuals as static images, the system converts them int
 
 This helps security, SRE, and DevOps teams respond faster by reusing knowledge from past incidents.
 
+<img width="1470" height="956" alt="visual-incident-intel" src="https://github.com/user-attachments/assets/6b87bf9b-6700-4205-bf82-d2177906956c" />
+
+
 ---
 
 ## ❓ Problem Statement
@@ -133,7 +136,6 @@ This is a **live backend-connected demo**, not a mock UI.
    - Similar incidents
    - Risk explanation
    - Suggested actions
-
 ---
 
 ## 🧰 Tech Stack
