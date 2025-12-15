@@ -138,17 +138,52 @@ This is a **live backend-connected demo**, not a mock UI.
    - Suggested actions
 ---
 
+## Development Environment
+
+This project was built and debugged using **Antigravity**, leveraging its
+IDE capabilities and agent-assisted workflows to accelerate development,
+debug backend APIs, validate vector search logic, and integrate multimodal AI services.
+
+Antigravity was used throughout:
+- FastAPI backend development
+- Qdrant vector store integration
+- Gemini Vision API debugging
+- Frontend and backend API alignment
+
+---
+
 ## 🧰 Tech Stack
 
 ### Backend
-- **FastAPI** – API server
-- **Google Gemini Vision** – multimodal image understanding
-- **Sentence Transformers** – embeddings
-- **Qdrant** – vector database
+
+- FastAPI
+- Python 3.11
+- Pydantic
+
+### Multimodal AI
+
+- Google Gemini Vision (via Google AI Studio)
+- Image + text understanding
+
+### Vector Search
+
+- Qdrant
+- Semantic similarity search
+- Cosine distance embeddings
+
+### Embeddings
+
+- Sentence Transformers (all-MiniLM-L6-v2)
 
 ### Frontend
-- **HTML + Tailwind CSS**
-- **Vanilla JavaScript**
+
+- HTML
+- CSS
+- JavaScript
+
+### Development & Debugging
+
+- Antigravity (IDE + agent-assisted workflows)
 
 ---
 
