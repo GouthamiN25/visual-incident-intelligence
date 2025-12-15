@@ -237,3 +237,5 @@ GitHub: https://github.com/GouthamiN25
 
 LinkedIn: https://www.linkedin.com/in/gouthami-nadupuri
 
+## License
+MIT
