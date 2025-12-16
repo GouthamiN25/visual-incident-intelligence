@@ -220,6 +220,63 @@ visual-incident-intelligence/
 
 └── README.md
 
+---
+
+## Setup & Run
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -U pip
+
+---
+
+## Install dependencies
+
+pip install -r requirements.txt
+
+## Set environment variables
+
+GEMINI_API_KEY=Your Key
+QDRANT_URL=http://localhost:6333
+
+
+## Start Qdrant
+
+Run Qdrant in a separate terminal (binary install):
+
+./qdrant
+
+
+## Run the backend
+
+uvicorn main:app --reload
+
+UI: http://localhost:8000
+
+API docs: http://localhost:8000/docs
+
+
+## Development Environment
+
+This project was developed and debugged using a combination of local terminal-based workflows and Google Antigravity, leveraging each for their strengths throughout the build process.
+
+Local terminal workflows were used for environment setup, dependency management, service execution, and runtime validation, while Antigravity provided IDE capabilities and agent-assisted workflows to accelerate development, debugging, and system integration.
+
+Tools and workflows used:
+
+Local terminal (Python virtual environments, pip, uvicorn, Qdrant runtime)
+
+Google Antigravity (IDE + agent-assisted workflows)
+
+FastAPI backend development
+
+Qdrant vector store integration and validation
+
+Gemini Vision API integration and debugging
+
+Frontend–backend API alignment
+
+---
 
 ## 🏆 Use Cases
 
