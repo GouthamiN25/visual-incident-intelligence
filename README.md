@@ -138,20 +138,6 @@ This is a **live backend-connected demo**, not a mock UI.
    - Suggested actions
 ---
 
-## Development Environment
-
-This project was built and debugged using **Antigravity**, leveraging its
-IDE capabilities and agent-assisted workflows to accelerate development,
-debug backend APIs, validate vector search logic, and integrate multimodal AI services.
-
-Antigravity was used throughout:
-- FastAPI backend development
-- Qdrant vector store integration
-- Gemini Vision API debugging
-- Frontend and backend API alignment
-
----
-
 ## 🧰 Tech Stack
 
 ### Backend
@@ -225,7 +211,9 @@ visual-incident-intelligence/
 ## Setup & Run
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -U pip
 
 ---
@@ -237,6 +225,7 @@ pip install -r requirements.txt
 ## Set environment variables
 
 GEMINI_API_KEY=Your Key
+
 QDRANT_URL=http://localhost:6333
 
 
